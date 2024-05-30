@@ -67,8 +67,3 @@ Terdapat 2 model yang dibangun yaitu, Model menggunakan konsep LSTM dan model de
 Metrics evaluasi yang dipakai adalah **Classification Report**. Didalam Classification Report terdapat beberapa metrics yaitu, **akurasi, precision, recall, dan F1 score**.
 
 Berdasarkan hasil evaluasi, didapatkan model LSTM memiliki performa yang lebih baik dibandingkan MLP. Dengan rata - rata akurasi setelah dilakukan cross validation adalah **0.91** sedangkan model MLP adalah **0.8245**
-
-## API
-Model - Model tersebut diintegrasikan kedalam API. API dibangun menggunakan API Flask, dan Swagger UI. API yang dibangun dapat digunakan untuk Analisa Sentiment dalam bentuk text dan file yang berisikan data - data Tweets.
-
-![lstm model - Copy](https://github.com/bensetiawan/2300968_Sentiment_Analysis_Platinum/assets/93572380/76f0581d-ba35-4154-aac9-5b18678a421f)
